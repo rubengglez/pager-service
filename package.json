@@ -1,0 +1,19 @@
+{
+  "name": "pager-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "t-watch": "jest --watchAll"
+  },
+  "author": "rubengglez",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "ulid": "^2.3.0"
+  }
+}
