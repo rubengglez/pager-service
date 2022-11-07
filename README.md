@@ -73,36 +73,6 @@ and doesn’t set an acknowledgement delay
 
 **Please note** that many concurrency issues can happen in this system. For example, is the Pager Service allowed to send 2 notifications to the same target when 2 alerts (same or different one) are received at the same time ? Theis answer to this question is a product decision. For the sake of this exercise, let’s say the answer is “no” (only 1 notification is sent). So take care of this during your design phase. Even if database persistence is not part of the exercise, tell us in your README file what guarantees you expect from the database.
 
-# 1. Homework (3 hours)
-
-Implement a model and unit tests for the domain logic of the Pager Service with the programming language and paradigm you prefer. For that, you need also to define interfaces between the adapters & the domain logic. But you must **not** implement any adapters. This is just about pure domain modeling. Keep things simple and straightforward.
-
-:warning: Do not fork this repository and do not submit any Pull Requests :warning:
-
-When you're done, please create your public repository on GitHub and communicate the URL to the Talent Acquisition Specialist.
-
-Make sure that you put the instructions in your README file on how to run unit tests so that we can easily see the result.
-
-# 2. Pair Programming (1 hour)
-
-During this visio-conference interview, the interviewer will present you a new feature to implement on top of your project.
-
-Be sure to have a working environment before this session.
-
-# 3. Presentation and collective review (1 hour)
-
-During this session, you have the opportunity to present **in english** your project to two engineers. You could consider that those engineers are familiar with the problem but not with your solution. Present the model and your test strategy.
-
-Engineers will ask you some questions. For example:
-- What could be the AWS infrastructure of this Alerting Notification System ?
-- Explains how you manage the Consistency Issue (2 alerts received at the same time) ?
-
-# Questions
-
-If you have questions, feel free to ask them to the Talent Acquisition Specialist.
-
-Thanks!
-
 # Explanation
 
 The goal of this document is to explain what the decisions were taken during the challenge.
